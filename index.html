@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	
+	<link href="CRY/cryfavicon.ico" rel="icon" type="image/x-icon">
+
+	<script src="JS/jquery-1.11.3.js" language="javascript" type="text/javascript"></script>
+
+
+	<link rel="stylesheet" href="ENTYPO/style.css">
+
+	<link rel="stylesheet" href="CSS/menu1.css">
+	<!--<script src="JS/pegajoso.js" language="javascript" type="text/javascript"></script>-->
+
+	<link rel="stylesheet" type="text/css" href="CSS/cs.css">
+
+	<link rel="stylesheet" href="CSS/slideshow.css">
+	<script src="JS/jquery.slides.js"></script>
+	
+	<style type="text/css">*{margin:0; padding:0;}</style>
+
+	<title>CRYNVENT</title>
+</head>
+
+<body style="background:#000000">
+
+	<!--MENU-->
+	<header class="header">
+		<nav>
+			<ul class="menu">
+				<li><a href="index.html"><span class="primero"><i class="icon icon-game-controller"></i></span><b>Inicio</b></a></li>
+				
+				<li><a href="halo.html"><span class="segundo"><i class="icon icon-price-tag"></i></span><b>Halo 5</b></a></li>
+
+				<li><a href="witcher.html"><span class="tercero"><i class="icon icon-time-slot"></i></span><b>The Witcher 3</b></a></li>
+
+				<li><a href="order.html"><span class="cuarto"><i class="icon icon-star"></i></span><b>The Order</b></a></li>
+
+				<li><a href="#"><span class="quinto"><i class="icon icon-mail"></i></span><b>Contacto</b></a>
+					<span class="sub-5">
+					<ul>
+						<li><a href="MISION.html"><b>Mision</b></a></li>
+						<li><a href="VISION.html"><b>Vision</b></a></li>
+					</ul>
+					</span>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!--FIN MENU-->
+
+	<!--VIDEO E IMAGEN DE FONDO-->
+	<video class="videofondo" width="100%" height="100%" autoplay muted loop="loop">
+		 <source src="VIDEOS/HALO5/Halo5Multiplayer(1.3).mp4" type="video/mp4"></source>
+	</video>
+	<img class="imgfondo" src="IMG/HALO5/GUARDIANS(C).png" width="100%" height="100%" >
+	<!--FIN VIDEO E IMAGEN DE FONDO-->
+
+    <!--SLIDESHOW-->
+	<div class="main">
+		<div class="slides">
+			<a href="gh.html">
+			<img src="IMG/WITCHER/5.jpg" alt="">
+			</a>
+			<a href="gh.html">
+			<img src="IMG/HALO5/Halo5Guardians-ChiefLocke.png" alt="">
+			</a>
+			<a href="gh.html">
+			<img src="IMG/ACS/assassin-s-creed-syndicate.png" alt="">
+			</a>
+			<a href="gh.html">
+			<img src="IMG/STARWARS/maxresdefault.jpg" alt="">
+			</a>
+			<a href="gh.html">
+			<img src="IMG/BATMAN/batman_arkham_knight.jpg" alt="">
+			</a>
+		</div>
+	</div>
+	
+	<script>
+		$(function(){
+		  $(".slides").slidesjs({
+		    play: {
+		      active: true,
+		        // [boolean] Generate the play and stop buttons.
+		        // You cannot use your own buttons. Sorry.
+		      effect: "slide",
+		        // [string] Can be either "slide" or "fade".
+		      interval: 5000,
+		        // [number] Time spent on each slide in milliseconds.
+		      auto: true,
+		        // [boolean] Start playing the slideshow on load.
+		      swap: true,
+		        // [boolean] show/hide stop and play buttons
+		      pauseOnHover: true,
+		        // [boolean] pause a playing slideshow on hover
+		      restartDelay: 2500
+		        // [number] restart delay on inactive slideshow
+		    }
+		  });
+		});
+	</script>
+	<!--FIN SLIDESHOW-->
+
+</body>
+
+</html>

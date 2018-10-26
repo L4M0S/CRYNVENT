@@ -1,0 +1,71 @@
+/*@font-face {
+font-family: Halo;
+src: url(Halo.ttf);
+}*/
+
+
+*
+{
+	padding: 0;
+	margin:0;
+}
+
+p.titulos
+{
+	color:red;
+	font-size: 50;
+	text-align: justify;
+	/*font-family: Halo;*/
+}
+
+p.parrafos
+{
+	color:white;
+	font-size: 25;
+	text-align: justify;
+}
+
+body
+{
+	z-index: 500;
+	margin-top: 31%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+video.videofondo
+{
+	top: 23px;
+	position: absolute;
+	z-index: -1500;
+	margin: none;
+	right: 0;
+	left:0;
+}
+
+img.imgfondo
+{
+	top:60px;
+	position: absolute;
+	z-index: -1499;
+	margin:none;
+	right: 0;
+	left:0;
+}
+
+img.img1
+{
+	
+	max-width: 1040px;
+}
+
+img.img2
+{
+	
+	max-width: 1040px;
+}
+
+video.trailer
+{
+	max-width: 1040px;
+}

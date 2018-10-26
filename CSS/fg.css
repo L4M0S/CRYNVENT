@@ -1,0 +1,31 @@
+.zoomIt
+{
+	display:block!important;
+	-webkit-transition:-webkit-transform 1s ease-out;
+	-moz-transition:-moz-transform 1s ease-out;
+	-o-transition:-o-transform 1s ease-out;
+	-ms-transition:-ms-transform 1s ease-out;
+	transition:transform 1s ease-out;
+}
+
+.zoomIt:hover
+{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+nav.articulos
+{
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+img 
+{
+	float: left; 
+	margin-right: 20px; 
+	margin-bottom: 20px;
+}

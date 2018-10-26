@@ -1,0 +1,13 @@
+video.videofondo
+{
+	top: 23px;
+	position: absolute;
+	z-index: -1500;
+}
+
+img.imgfondo
+{
+	top:60px;
+	position: absolute;
+	z-index: -1400;
+}
